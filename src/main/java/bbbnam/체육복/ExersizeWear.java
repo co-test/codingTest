@@ -1,4 +1,4 @@
-package bbbnam;
+package bbbnam.체육복;
 
 public class ExersizeWear {
 

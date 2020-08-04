@@ -1,18 +1,8 @@
-package main.java.Limjung;
+package main.java.programmers.jung.lv1.greedy;
 
 public class CodingTest {
-
-	public static void main(String[] args) {
-		
-		int n = 10;
-		int[] lost = {9,10};
-		int[] reserve = {1,9};
-		
-		System.out.println("체육수업을 들을 수 있는 학생의 최댓값 : " + solution(n, lost, reserve));
-		
-	}
 	
-	private static int solution(int n, int[] lost, int[] reserve) {
+	private int solution(int n, int[] lost, int[] reserve) {
 		
 		int answer = 0;
 		int[] student = new int [n];			

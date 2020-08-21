@@ -1,7 +1,14 @@
-review me: "*"
+review me:
+  - "*"
 
-arthur: arthur/**/*
+arthur:
+  - src/main/java/programmers/arthur/**/*
 
-programmers: programmers/**/*
+bbbnam:
+  - src/main/java/programmers/bbbnam/**/*
 
-greedy: greedy/**/*
+programmers:
+  - src/main/java/programmers/**/*
+
+greedy:
+  - greedy/**/*

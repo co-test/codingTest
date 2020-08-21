@@ -1,0 +1,11 @@
+review me:
+  - "*"
+
+arthur:
+  - arthur/**/*
+
+programmers:
+  - programmers/**/*
+
+greedy:
+  - greedy/**/*

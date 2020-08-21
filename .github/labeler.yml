@@ -1,11 +1,7 @@
-review me:
-  - "*"
+review me: "*"
 
-arthur:
-  - arthur/**/*
+arthur: arthur/**/*
 
-programmers:
-  - programmers/**/*
+programmers: programmers/**/*
 
-greedy:
-  - greedy/**/*
+greedy: greedy/**/*

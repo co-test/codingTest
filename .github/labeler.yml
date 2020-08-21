@@ -11,4 +11,4 @@ programmers:
   - src/main/java/programmers/**/*
 
 greedy:
-  - greedy/**/*
+  - src/**/greedy/**/*

@@ -25,20 +25,15 @@ public class ExersizeWear {
                 continue;
             } //이미 체육복 있는 애들은 패스
             if (backNum != studentCount && students[backNum] == 2) {
-                //체육복 없는 애들인데 자기보다 바로 뒷번호에 옷이 있다~? 그럼 빌려야쥐..
-                // 그런데 맨 뒤에 있는애는 본인보다 뒤가 없으니.. 최대값이 되면 안된다.
                 students[i]++;
                 students[backNum]--;
                 continue;
             }
             if (frontNum >= 0 && students[frontNum] == 2){
-                //체육복 없는 애들인데 자기보다 앞번호에 옷이 있으면? 그럼 빌려야지~!
-                // 그런데 가장 앞에 있는 애는 더 앞이 없으니.. 최소값 보다 작으면 안된다.
                 students[i]++;
                 students[frontNum]--;
                 continue;
             }
-            //위 조건 어디에도 안걸리고 온 학생이면.. 체육복이 없네
             answer--;
         }
         return answer;

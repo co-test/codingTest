@@ -33,7 +33,7 @@ public class ExersizeWear {
                 students[i]++;
                 students[frontNum]--;
                 continue;
-            }
+            }//1
             answer--;
         }
         return answer;

@@ -1,9 +1,24 @@
 package programmers.bbbnam.큰수만들기;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
 public class BigNumber {
 
     public String solution(String number, int k) {
-        //String answer = "";
+        String answer = "";
+        String s = "ZACABbcdefg";
+        String B = "abcde";
+        char [] a = s.toCharArray();
+        Arrays.sort(a);
+       // Collections.reverse(Arrays.asList(a));
+
+        for (char cc : a) {
+            System.out.println("list>>>"+cc);
+        }
+        /*//String answer = "";
         int cnt = number.length() - k;
         int right = number.length() - cnt;
         int left = 0;
@@ -27,8 +42,8 @@ public class BigNumber {
             right = number.length() - cnt;
             index++;
         }
-
-        return String.valueOf(answerArray);
+*/
+        return "";//String.valueOf(answerArray)"";
     }
 
     public static void main(String[] args) {

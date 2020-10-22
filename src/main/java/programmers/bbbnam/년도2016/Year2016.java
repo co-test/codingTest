@@ -14,6 +14,8 @@ public class Year2016 {
             totalDay += monthDay[i];
         }
         totalDay += b - 1;
+        //이게 마이너스1을 바로 아래줄에 day[totalDay % 7 - 1]; 이렇게 했더니 다 통과하다가 몇개가 런타임 에러난다
+        //위치에 따라 런타임 되기도 하는듯?
         answer = day[totalDay % 7];
         return answer;
     }

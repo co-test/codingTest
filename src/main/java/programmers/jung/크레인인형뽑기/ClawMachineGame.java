@@ -39,6 +39,8 @@ result
 4
 */
 
+
+// 주말에 마무리하자...
 public class ClawMachineGame {
 
 	public static void main(String[] args) {
